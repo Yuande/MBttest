@@ -1,6 +1,6 @@
 # MBttest
 
-MBttest, also called mBetat test, uses new beta t-test method to identify differential expression for each gene or RNA isoform. This approach introduces a gene- or isoform-specific variable, called rho, into t-statistic based on beta distribution. It outperforms the existing statistical methods for identifying differential expressions of genes or isoforms either by inflating t-values with rho > omega (a null rho) or by shrinking those with rho < omega  when number of replicate libraries in each condition is smaller.
+MBttest, also called mBetat test, uses new beta t-test method to identify differential expression for each gene or RNA isoform. This approach introduces a gene- or isoform-specific variable, called rho, into t-statistic based on beta distribution. It outperforms the existing statistical methods for identifying differential expressions of genes or isoforms either by inflating t-values with $\rho >\ omega$ (a null $\rho$) or by shrinking those with rho < omega  when number of replicate libraries in each condition is smaller.
 
 
 ## Installation
