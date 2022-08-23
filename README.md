@@ -1,6 +1,6 @@
 # MBttest
 
-MBttest, also called mBetat test, uses new beta t-test method to identify differential expression for each gene or RNA isoform. This approach introduces a gene- or isoform-specific variable, called rho, into t-statistic based on beta distribution. It outperforms the existing statistical methods for identifying differential expressions of genes or isoforms either by inflating t-values with $\rho >\ omega$ (a null $\rho$) or by shrinking those with rho < omega  when number of replicate libraries in each condition is smaller.
+MBttest, also called mBetat test, uses new beta t-test method to identify differential expression for each gene or RNA isoform. This approach introduces a gene- or isoform-specific variable, called rho, into t-statistic based on beta distribution. It outperforms the existing statistical methods for identifying differential expressions of genes or isoforms either by inflating t-values with $\rho >\omega$ (a null $\rho$) or by shrinking those with rho < omega  when number of replicate libraries in each condition is smaller.
 
 
 ## Installation
@@ -32,7 +32,7 @@ or using head to display the data jkttcell:
 jkttcell is matrix count data generated from RNA sequences due to differential polyadenylation in  Jurkat T-cell betweem resting and stimulating statuses using BWA.  Data jkttcell contains 7 columns for information of poly(A) sites in the left side and 10 columns for count data.
 
 ## Simulation for calculation of omega
-Before performing *mbetattest* on the real data, user needs simulation to determine $$\omega$$ value. There are three steps for doing so:
+Before performing *mbetattest* on the real data, user needs simulation to determine $\omega$ value. There are three steps for doing so:
 
 Step1: Use the following function to generate null simulation data: 
 
